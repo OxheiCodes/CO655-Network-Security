@@ -6,5 +6,17 @@
 ![image](https://github.com/user-attachments/assets/c8de6b87-818d-44e4-8afa-8c97ca9b8abb)
 
 - Enter global configuration mode: `enable` `configure terminal`
+- Set Router Hostname: `hostname richard-Router`
+- Configure Encrypted Passwords: `service password-encryption
+enable secret YourStrongPassword123!
+line console 0
+ password ConsolePassword456!
+ login
+ exit
 
+line vty 0 4
+ password VTYPassword789!
+ login
+ transport input ssh
+ exit`
 
