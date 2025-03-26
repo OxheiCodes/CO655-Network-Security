@@ -20,4 +20,9 @@
  `login`
  `transport input ssh`
  `exit`
+ - Configure Virtual Terminal Access:
+`username Admin password Test`
+`ip domain-name device-name.com`
+`crypto key generate rsa`
+ `1024`
 
